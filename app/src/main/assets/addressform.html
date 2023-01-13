@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>iOS/Android</title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			body {
+				background-color: black;
+			}
+
+			td {
+				color: yellow;
+				font-size: 20px;
+			}
+
+			input {
+				color: black;
+				border: 0;
+				font-size: 20px;
+			}
+
+			h1 {
+				color: green;
+				font-size: 20px;
+			}
+		</style>
+		<script src="app.js" type="text/javascript"></script>
+	</head>
+	<body width="100%" height="100%">
+		<h1>WebView To Native Send Event using Javascript</h1>
+		<table cellspacing="10" width="100%" height="100%">
+			<tr>
+				<td>Address</td>
+				<td><input id="street" type="text" width="80" value="Noida Sector 18" /></td>
+			</tr>
+			<tr>
+				<td>City</td>
+				<td><input id="city" type="text" width="50" value="Noida" /></td>
+			</tr>
+			<tr>
+				<td>State</td>
+				<td><input id="state" type="text" width="10" value="UP" /></td>
+			</tr>
+			<tr>
+				<td>Country</td>
+				<td><input id="country" type="text" width="10" value="IN" /></td>
+			</tr>
+			<tr>
+				<td />
+				<td><input type="submit" value="Geocode Address" onclick="geocodeAddress();"></td>
+			</tr>
+			<tr />
+			<tr>
+				<td>Latitude</td>
+				<td><input id="latitude" type="text" width="50" /></td>
+			</tr>
+			<tr>
+				<td>Longitude</td>
+				<td><input id="longitude" type="text" width="50" /></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Register" onclick="registration();"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="purchase" onclick="purchase();"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="ShowVersion" onclick="showVersion();"></td>
+			</tr>
+		</table>
+	</body>
+</html>
